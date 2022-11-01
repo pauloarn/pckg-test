@@ -1,24 +1,31 @@
 {
   "name": "pn-pckg-test",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --jsx react-jsx"
+    "build": "tsc",
+    "semantic-release": "semantic-release"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "repository": {
+    "url": "https://github.com/pauloarn/pckg-test"
+  },
   "peerDependencies": {
-    "@emotion/react": "^11.10.5",
-    "@emotion/styled": "^11.10.5",
-    "@mui/material": "^5.10.12",
-    "@types/react": "^18.0.24",
-    "@types/react-dom": "^18.0.8",
-    "react": "^18.2.0",
-    "react-bootstrap": "^2.5.0",
-    "tsconfig": "^7.0.0",
-    "typescript": "^4.8.4"
+    "@emotion/react": "^11.X",
+    "@emotion/styled": "^11.X",
+    "@mui/material": "^5.X",
+    "@types/react": "^18.X",
+    "@types/react-dom": "^18.X",
+    "react": "^18.X",
+    "react-bootstrap": "^2.X",
+    "tsconfig": "^7.X",
+    "typescript": "^4.X"
+  },
+  "devDependencies": {
+    "semantic-release": "^19.0.5"
   }
 }
